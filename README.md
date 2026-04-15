@@ -1,1 +1,2 @@
-Youtube Rag application
+YouTube Transcript Fetcher
+A production-ready Spring Boot utility for retrieving transcripts from YouTube videos using Java. This project provides a robust wrapper around the YouTube captions API, handling video ID parsing, language selection, and error management.
