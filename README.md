@@ -1,2 +1,5 @@
-YouTube Transcript Fetcher
-A production-ready Spring Boot utility for retrieving transcripts from YouTube videos using Java. This project provides a robust wrapper around the YouTube captions API, handling video ID parsing, language selection, and error management.
+**YouTube Intelligence RAG**
+
+A Retrieval-Augmented Generation (RAG) application built with Spring AI and Ollama. It allows users to ingest YouTube transcripts and have context-aware conversations about the video content.
+
+Unlike standard LLM chats, this uses a local vector database to "remember" specific video details, providing high-accuracy summaries and Q&A without data leaving your machine.
