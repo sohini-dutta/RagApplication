@@ -34,9 +34,9 @@ Unlike standard LLM chats, this uses a local vector database to "remember" speci
 3. **Running the App**
 
 **API Usage**
-A. **Ingest a Video**
-Post the raw transcript for a specific video ID.
-Endpoint: **POST /api/rag/index**
-B. **Chat with your Videos**
-Ask questions based on the ingested content.
-Endpoint: **GET /api/rag/ask**
+1. **Ingest a Video**
+- Post the raw transcript for a specific video ID.
+- Endpoint: **POST /api/rag/index**
+2. **Chat with your Videos**
+- Ask questions based on the ingested content.
+- Endpoint: **GET /api/rag/ask**
