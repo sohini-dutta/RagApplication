@@ -23,19 +23,9 @@ Unlike standard LLM chats, this uses a local vector database to "remember" speci
 3. **Retrieval:** When a user asks a question, the system searches the local JSON store for the most relevant transcript segments.
 4. **Generation:** The relevant segments and the user's question are sent to the LLM via the QuestionAnswerAdvisor to generate a grounded response.
 
-**Getting Started**
-1. **Prerequisites**
-- Java 21 or higher
-- Ollama installed and running
-- Models pulled: Ollama (Llama 3.2 / Nomic-Embed)
-2. **Installation**
-- Clone the repository
-- Build the project
-3. **Running the App**
-
 **API Usage**
 1. **Ingest a Video**
-- Post the raw transcript for a specific video ID.
+- Post a specific video ID.
 - Endpoint: **POST /api/rag/index**
 2. **Chat with your Videos**
 - Ask questions based on the ingested content.
